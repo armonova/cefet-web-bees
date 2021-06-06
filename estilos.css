@@ -1,0 +1,80 @@
+html {
+    background-image: linear-gradient( to left top, black, yellow);
+    height: 100%;
+    font-size: 20px;
+}
+
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.curiosidade {
+    border: 1px solid #f9a720;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url('./imgs/favo-de-mel.png');
+}
+
+.curiosidade > img {
+    float: left;
+    margin-right: 20px;
+}
+
+.casta-de-abelha {
+    border: 5px double #f9a720;
+    border-radius: 50%;
+}
+
+#img-operaria, #img-rainha {
+    float: left;
+    margin-right: 20px;
+}
+
+#img-zangao {
+    float: right;
+    margin-left: 20px;
+}
+
+#cabecalho {
+    background: rgba(255,255,255, 0.5);
+    box-shadow: 4px 4px 4px #0003;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a[href^="http"] {
+    background: rgb(195, 211, 64, 0.5)
+}
+
+p:last-child {
+    text-align: right;
+}
+
+/* desafiozinho */
+img[alt=""], img:not([alt]) {
+    border: solid 10px red !important;
+}
+
+.cancel-float-right {
+    clear: right;
+}
+
+.cancel-float-left {
+    clear: left;
+}
